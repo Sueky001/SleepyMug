@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgba(110, 133, 141, 0.486);
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+
+  margin-top: -5px;
+}
+h2{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: -10px;
+}
+a:visited{
+  color: blue;
+}
+a:hover{
+  color: rgb(184, 19, 19);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+#header-img{
+    width:200px;
+    height: auto;
+}
+#nav-bar ul li{
+    display: inline;
+    padding-right: 60px;
+    list-style: none;
+    font-size: 20px;
+    color:blue;
+    font-weight: bolder;
+}
+.nav-link{
+  text-decoration: none;
+}
+.section-1{
+  font-size: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 30px;
+  margin: auto;
+  color: blue;
+  border-radius: 20px;
+  margin-right: 400px;
+  margin-left: 400px;
+}
+.connect{
+color:gray;
+}
+#cafe{
+  padding: 60px;
+}
+#dent{
+  text-align: center;
+  padding: 20px;
+  background-color:aliceblue;
+  border-radius: 20px;
+  margin-right: 500px;
+  margin-left: 500px;
+ }
+
+#capuccino, #filtre, #grains{
+  width: 50px;
+}
+#cafe p{
+height: 20px;
+margin-left: 100px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+#cafe h2{
+    display: inline;
+    vertical-align:middle;
+    margin-left: 20px;
+}
+#cafe img{
+  vertical-align:middle;
+}
+.video-titre{
+  padding-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-size: 20px;
+  }
+#design {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px;
+  gap: 15px;
+  height: 330px;
+  margin-top: 60px;
+}
+#ecolo, #aventure, #cuba-rouge{
+  width: 300px;
+  height: 215px;
+}
+button{
+  width: 100px;
+  height: 30px;
+}
+figcaption{
+  font-weight: bolder;
+  font-size: 20px;
+}
+figure{
+text-align: center;
+}
+
+.flex-rouge, .flex-bleu, .flex-vert{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+#irouge{
+  background-color: red;
+}
+#ibleu{
+  background-color:blue;
+}
+#ivert{
+  background-color: green;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: aliceblue;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+footer ul li{
+  display: inline;
+}
+
+footer ul li a{
+  text-decoration: none;
+  
+}

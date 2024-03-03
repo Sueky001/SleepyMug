@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>sleepy mug</title>
+	<link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+       
+  <header id="header">
+    <img 
+    src="https://i.pinimg.com/474x/ec/e0/52/ece052094ef51c1b0733bd10ca6ca92d.jpg"
+    id="header-img" />
+
+    <nav id="nav-bar">
+      <ul>
+        <li>
+          <a class="nav-link" href="#cafe">Mon café pref</a>
+          </li>
+              <li>
+          <a class="nav-link" href="#dent">Ma dent sucrée</a>
+          </li>
+              <li>
+          <a class="nav-link" href="#design">Mon design</a>
+          </li>
+      
+      </ul>
+      </nav>
+  </header>
+
+<section class="section-1">
+    <h1>Reste <span class="connect">connecté</span> à ton sleepy mug</h1>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+    <input 
+    type="email"
+    id="email"
+    name="email"
+    placeholder="Saisis ton courriel" 
+    required
+    >
+    <input 
+    type="submit"
+    id="submit"
+    value="C'est parti!" >
+    </form>
+</section>
+
+<section id="cafe">
+  <img src="https://media2.giphy.com/media/eikVkuwOnsR5sjeadK/giphy.gif" alt="capuccino" id="capuccino">
+  <h2>Spécialicités à déguster sur notre divan</h2>
+  <p>Latte, espresso, macchiato, capuccino... Oh que oui! Ton choix, c'est clairement un bon choix.</p>
+
+  <img id="filtre" src="https://media.istockphoto.com/id/184835098/fr/photo/isol%C3%A9-utilis%C3%A9-filtre-%C3%A0-caf%C3%A9.jpg?s=612x612&w=0&k=20&c=MKraIQ36cAc7p8ezpeV_6fEExUTOPYFfGXbkSm0u2Mk=" alt="café filtre">
+  <h2>Un café... filtre... "ben quin"</h2>
+  <p>Un café ordinaire? Oh que non! Jette un oeil comme il faut à notre sélection du jour.</p>
+  
+  <img id="grains" src="https://media.istockphoto.com/id/486568978/fr/photo/grains-de-caf%C3%A9-dans-un-panier-sur-fond-en-bois.jpg?s=612x612&w=0&k=20&c=l9CvbuFysR703ZNFfuzv0fz6xM6Yzz7-Hw0VWEoS2rU=" alt="café en grains">
+  <h2>Je te ramène à la maison</h2>
+  <p>Notre sélection de grains à emporter te gardera près de nous lorsque tu seras chez-vous!</p>
+</section>
+
+<section id="dent">
+  <figure>
+    <figcaption class="video-titre">La première bouchée se mange avec les yeux</figcaption>
+    <iframe id="video" src="https://player.vimeo.com/external/377060855.sd.mp4?s=f3c507bab786f5dbcef157bd8fdc5548099545ae&profile_id=164&oauth2_token_id=57447761"> </iframe>
+  </figure>
+</section>
+
+<section id="design">
+    <div class="flex-rouge">
+      <figure>
+        <figcaption>La rouge cubaine</figcaption>
+        <img id="cuba-rouge" src="https://images.unsplash.com/4/cuba-cup.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGFzc2UlMjAlQzMlQTAlMjBjYWYlQzMlQTklMjByb3VnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="tasse à café Cuba">
+      </figure>   
+      <button id="irouge">Select</button>
+    </div>
+
+    <div class="flex-vert">
+    <figure>
+      <figcaption>La verte écolo</figcaption>
+      <img id="ecolo" src="https://images.unsplash.com/photo-1466019251091-1933ce15ba04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRhc3NlJTIwJUMzJUEwJTIwY2FmJUMzJUE5JTIwdmVydGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="tasse à café verte">
+    </figure>
+    <button id="ivert">Select</button>
+    </div>
+
+    <div class="flex-bleu">
+      <figure>
+      <figcaption>La bleu aventure</figcaption>
+      <img id="aventure" src="https://images.unsplash.com/photo-1513127653385-eeaf744da067?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGFzc2UlMjAlQzMlQTAlMjBjYWYlQzMlQTklMjBibGV1fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="tasse à café bleu">
+      </figure>
+    <button id="ibleu">Select</button>
+  </div>
+</section>
+
+<footer>
+    <ul>
+        <li><a href="#" >Privacy</a></li>
+        <li><a href="#" >Terms</a></li>
+        <li><a href="#" >Contact</a></li>
+    </ul>
+      <span>Copyright 2023, Sleepy mug</span>
+</footer>      
+
+
+</body>
+
+</html>
