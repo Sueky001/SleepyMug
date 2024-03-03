@@ -1,2 +1,1 @@
-# Sleepy-Mug
- Projet - Formation FreeCodeCamp
+Projet - Formation FreeCodeCamp
